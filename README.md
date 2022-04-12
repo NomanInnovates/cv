@@ -1,2 +1,2 @@
 # cv
-deployed linku => https://nomi0125.github.io/cv/
+deployed link => https://nomi0125.github.io/cv/
