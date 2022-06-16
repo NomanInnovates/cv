@@ -10,7 +10,7 @@
    
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 
-<div class="container">
+<div class="container" id="ele">
   <div class="header">
     <div class="full-name">
         <h1>Noman Imran</h1>
@@ -292,6 +292,12 @@
      </div>
   </div>
 </div>
-  
+<!-- jsPDF library -->
+<script src="js/jsPDF/dist/jspdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+  <script> 
+  var ele = document.getElementById("ele")
+ html2pdf(ele)
+</script>
 </body>
 </html>
