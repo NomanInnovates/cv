@@ -289,6 +289,11 @@
           </div>
        </div>
      </div>
+<button onclick="generatePdf()" style="
+    float: right;
+    padding: 3px 10px;
+    font-weight: 600;
+">Save as PDF </button>
      </div>
   </div>
 </div>
@@ -296,8 +301,9 @@
 <script src="js/jsPDF/dist/jspdf.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
   <script> 
+  function generatePdf (){
   var ele = document.getElementById("ele")
- html2pdf(ele)
+ html2pdf(ele)}
 </script>
 </body>
 </html>
