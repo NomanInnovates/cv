@@ -270,7 +270,8 @@
   <script>
     function generatePdf() {
       var ele = document.getElementById("ele")
-      html2pdf(ele, { filename: "NomanSandhuCV.pdf" })
+      html2pdf(ele, { filename: "NomanSandhu.pdf",jsPDF:{ unit: 'in', format: [7.2,9.5], orientation: 'portrait' } })
+
     }
   </script>
 </body>
